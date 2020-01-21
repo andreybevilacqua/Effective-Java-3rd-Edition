@@ -1,10 +1,10 @@
-package com.abevilacqua.item3;
+package com.abevilacqua.item3_singleton;
 
-public class ElvisSingleton1 {
+public class Elvis1 {
 
-  public static final ElvisSingleton1 INSTANCE = new ElvisSingleton1();
+  public static final Elvis1 INSTANCE = new Elvis1();
 
-  private ElvisSingleton1(){}
+  private Elvis1(){}
 
   public void doSomething(){}
 
