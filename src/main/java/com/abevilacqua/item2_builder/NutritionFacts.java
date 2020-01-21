@@ -1,5 +1,8 @@
 package com.abevilacqua.item2_builder;
 
+import lombok.Getter;
+
+@Getter
 public class NutritionFacts {
 
   private final int servingSize;
