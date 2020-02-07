@@ -7,7 +7,7 @@ public class FileReader {
   private static final int BUFFER_SIZE = 16;
   private static String defaultVal = "DEFAULT_VALUE";
   // try-with-resources - the best way to close resources
-  static String firstLineOfFile(String path) throws IOException {
+  static String firstLineOfFile(String path) {
     try (BufferedReader br = new BufferedReader(new java.io.FileReader(path))) {
       return br.readLine();
     } catch (IOException e) {
